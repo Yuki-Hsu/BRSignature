@@ -20,6 +20,7 @@
 1. 拷贝`miracl.a`，`miracl.h`，`mirdef.h`至编码目录
 
 2. 根据需求包含相关的头文件
+
 ```
 #include "miracl.h"
 #include "mirdef.h"    // not always necessary
@@ -32,8 +33,9 @@
 2. 编译`g++ -O2 BRSign.cpp ss2_pair.cpp ec2.cpp gf2m4x.cpp gf2m.cpp big.cpp miracl.a`
 
 3. 参考
-> https://github.com/miracl/MIRACL/blob/master/source/curve/pairing/sk_1.cpp
-https://en.wikipedia.org/wiki/Sakai%E2%80%93Kasahara_scheme
-https://en.bitcoin.it/wiki/Secp256k1
-http://www.sikoba.com/docs/SKOR_SV_Pairing_Based_Crypto.pdf
-https://groups.google.com/forum/#!topic/pbc-devel/DvDvziTTwFk
+
+* https://github.com/miracl/MIRACL/blob/master/source/curve/pairing/sk_1.cpp
+* https://en.wikipedia.org/wiki/Sakai%E2%80%93Kasahara_scheme
+* https://en.bitcoin.it/wiki/Secp256k1
+* http://www.sikoba.com/docs/SKOR_SV_Pairing_Based_Crypto.pdf
+* https://groups.google.com/forum/#!topic/pbc-devel/DvDvziTTwFk
