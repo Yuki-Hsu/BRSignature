@@ -39,3 +39,18 @@
 * https://en.bitcoin.it/wiki/Secp256k1
 * http://www.sikoba.com/docs/SKOR_SV_Pairing_Based_Crypto.pdf
 * https://groups.google.com/forum/#!topic/pbc-devel/DvDvziTTwFk
+
+### 文件描述
+
+```
+BRSign.cpp    // BR签名
+ECCencryption.c    // ECC加解密
+ecsgen.c    // ECC签名密钥生成
+ecsign.c    // ECC签名
+ecsver.c    // ECC验证
+common.ecs    // ECC使用的椭圆曲线参数
+file.txt    // 签名源文件
+file.ecs    // 签名signature
+ibs.cpp    // IBS
+aesencrypt.c    // AES加密
+```
